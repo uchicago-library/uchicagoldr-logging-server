@@ -4,8 +4,8 @@ import logging.handlers
 import socketserver
 import struct
 
-from uchicagoldrLogging.filters import ManualIPFilter
-from uchicagoldrLogging.formatters import server
+from uchicagoldrlogging.filters import ManualIPFilter
+from uchicagoldrlogging.formatters import server
 
 # https://docs.python.org/3/howto/logging-cookbook.html#sending-and-receiving-logging-events-across-a-network
 
